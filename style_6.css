@@ -1,0 +1,12 @@
+body{
+	background-color:lightgray;padding:2%;
+	background-image:url(pattern.png);
+	background-repeat:repeat;
+	background-size:50px;
+}
+#container{background-color:darkblue; padding:2%; margin:auto; width:80%;}
+#header {background-color:darkcyan; padding:2%; text-align:center;}
+#main {background-color:white; height:400px;}
+#sidebar{background-color:darkcyan; width:30%; height:400px; float:left;text-align:center;}
+#article{background-color: white; width:70%; height:350px;float:left;text-align:center;}
+#footer {background-color: darkcyan; padding:2%;text-align:center;}
