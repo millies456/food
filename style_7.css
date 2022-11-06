@@ -57,7 +57,7 @@ line-height: 1.5em;
         @media only screen and (max-width: 575px) { #article {
             width:100%;
             background-color: lightblue;
-            float:none; margin: auto; height:70%;
+            float:none; margin: auto; height:57%;
             }
             @media only screen and (max-width: 575px) { #left {
                 width:100%;
