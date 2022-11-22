@@ -9,9 +9,38 @@
 		content = "width=device-width, initial-scale=1.0">
 
 <title> Assignement 3</title>
+<script type = "text/javascript" src = "calc.js"> </script>
 </head>
 <body>
 <div id="container">
+	<h2> Annual Salary Calculator </h2>
+
+<div>
+
+Enter the Hourly Rate: $<input type = "text" id = "HRate" size = 10/>
+
+<br><br>
+
+Enter the Hours Worked Per Week : <input type = "text" id = "HWork" size = 10/>
+
+<br><br>
+
+</div>
+
+<input type = "button" value = "Calculate Salary"
+
+onclick = " var hrate = document.getElementById('HRate').value;
+
+var hwork = document.getElementById('HWork').value;
+
+var mysalary = Calc_Salary(hrate, hwork);
+
+document.getElementById('outputDiv').innerHTML = 'You Salary is $' + mysalary;"/>
+
+<hr>
+
+<div id = "outputDiv"> </div>
+
 <div id="header"><h1>Resume </h1>
 <br>
 <p>there will be a list of information about me in the future</p>
